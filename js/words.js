@@ -147,7 +147,14 @@ export const WORD_LIST = [
     'HOSTS',
     'PINGS',
     'ADMIN',
-    'EVENT'
+    'EVENT',
+    'ANNIE',
+    'LANES',
+    'PICKS',
+    'DRAFT',
+    'MUNDO',
+    'GANKS',
+    'PENTA',
 ];
 
 export const WORD_OF_THE_DAY = 'MARIO';
