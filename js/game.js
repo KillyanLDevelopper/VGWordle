@@ -1,3 +1,5 @@
+import { normalizeWord } from './utils.js';
+
 export const GameState = Object.freeze({
 	PLAYING: 'playing',
 	WON: 'won',
@@ -73,10 +75,6 @@ export const GuessState = Object.freeze({
     PRESENT: 'present',
     ABSENT: 'absent'
 });
-
-function normalizeWord(word) {
-    return String(word).trim().toUpperCase();
-}
 
 export function evaluateGuess(guess, targetWord) {
     const normalizedGuess = normalizeWord(guess);
