@@ -155,6 +155,17 @@ export const WORD_LIST = [
     'MUNDO',
     'GANKS',
     'PENTA',
+    'DODGE',
+    'SMITE',
+    'WARDS',
+    'PLAYS',
+    'FAKER',
+    'KERIA',
+    'VOCAL',
+    'YASUO',
+    'AKALI',
+    
+
 ];
 
 export const WORD_OF_THE_DAY = 'MARIO';
